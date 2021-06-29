@@ -1,0 +1,18 @@
+RewriteEngine On
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule ^([a-zA-Z0-9_-]+)/(Following|Follower)?$ web/view/$2.php?username=$1 [QSA]
+RewriteRule ^hashtag/([a-zA-Z0-9_-]+)/?$ web/view/Hashtag.php?hashtag=$1
+RewriteRule ^settings/account/?$ web/view/Account.php
+RewriteRule ^settings/password/?$ web/view/Password.php
+RewriteRule ^settings/profile/?$ web/view/EditProfile.php
+RewriteRule ^profile/([a-zA-Z0-9_-]+)/?$ web/view/Profile.php?username=$1
+RewriteRule ^my/([a-zA-Z0-9_-]+)?$ web/view/Home.php
+RewriteRule ^i/notifications/?$ web/view/Notification.php
+
+
+
+
+
+
