@@ -1,0 +1,138 @@
+.wrap5{
+	background-color: rgba(0, 0, 0, 0.34);
+	position: fixed;
+	width: 100%;
+	height: 100%;
+	top:0px;
+	left:0px;
+	z-index: 10000;
+	overflow-y: scroll;
+	display: block;
+}
+
+
+.user-popup-body-wrap{
+	width: 550px;
+	height: auto;
+	margin: 0px auto;
+	top: 25%;
+	position: relative;
+	background:#fff;
+	border-radius: 5px;
+	border: 1px solid #9E9E9E;
+	overflow: hidden;
+
+}
+
+.user-popup-heading h3{
+    font-weight: normal;
+    font-size: 16px;
+    color: #7d929c;
+}
+
+.user-popup-heading{
+	text-align: center;
+	padding: 7px;
+	border-bottom: 1px solid #dde2e6;
+}
+.user-popup-heading button{
+	border: none;
+	background: none;
+	margin: 0px;
+	padding: 0px;
+	cursor: pointer;
+}
+.user-popup-heading span{
+	float: right;
+	position: relative;
+	top: -18px;
+	right: 7px;
+	font-size: 14px;
+	cursor:pointer;
+}
+
+.user-popup-heading span i{
+	color: #afb1b3;
+}
+
+.user-popup-footer-right{
+	float: right;
+}
+.user-popup-footer-right button[type="submit"]{
+	background: #3a8efb;
+	padding: 8px 10px;
+	border: 1px solid #E7E7E7;
+	color: #fff;
+	font-weight: bold;
+	margin: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+.user-popup-footer-right button[type="submit"]:hover{
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#499bea+0,207ce5+100;Blue+3d+%237 */
+	background: #499bea; /* Old browsers */
+	background: -moz-linear-gradient(top, #499bea 0%, #207ce5 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #499bea 0%,#207ce5 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #499bea 0%,#207ce5 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#499bea', endColorstr='#207ce5',GradientType=0 ); /* IE6-9 */
+}
+.user-popup-footer-right button[type="submit"]:active{
+	background: #3a8efb;
+	box-shadow: inset 0px 0px 3px black;
+}
+.user-popup-footer-right button i{
+	margin: 0px 3px 0px 0px;
+	font-size: 20px;
+	font-weight: bold;
+	position: relative;
+	top: 1px;
+}
+
+.media-object{
+	width: 72px;
+	height: 72px;
+}
+
+.media-left a img{
+	width: 72px;
+	height: 72px;
+}
+
+
+.media-body img{
+	width: 720px;
+	height: 480px;
+}
+
+.media-body p{
+	font-size: 16px;
+}
+
+.search-actions{
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.media-left{
+	padding-top: 5px;
+	padding-left: 5px;
+}
+
+.search-media{
+	border: 1px solid #9E9E9E;
+	border-radius: 5px;
+}
+
+.media-heading{
+	padding-top: 5px;
+}
+
+.s-paging{
+	text-align: center;
+}
+
+.pagination{
+	text-align: center;
+	margin-top: 20px;
+	vertical-align: center;
+}
